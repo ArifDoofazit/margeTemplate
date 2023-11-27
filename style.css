@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+}
+.navbar ul li{
+    list-style:none;
+    float: left;
+    text-transform: uppercase;
+    
+}
+.navbar  li a{
+    font-size: 17px;
+    color:#BA1F2D;
+    font-weight:600;
+    padding:0px 10px;
+    text-decoration:none;
+}
+.navbar img{
+    max-width: 400px;
+    max-height: 85px;
+}
+.btn{
+    font-weight:600;
+    font-size:18px;
+}
+.icon{
+    color:#BA1F2D;
+    font-size:20px;
+}
+.text{
+    color:#BA1F2D;
+    font-size:18px;
+}
+.image{
+    width:100%;
+    height:500px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:url(../Raduni/image/a-few-items-from-our.jpg);
+    position: relative;
+}
+.image-opacity{
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height:500px;
+}
+.image h1{
+    position: absolute;
+    top:50%;
+    left:25%;
+    color:#28d174;
+    font-weight:800;
+    font-family: Lobster, sans-serif;
+}
+.image h1:hover{
+    color: #FF6969;
+}
+.image h2{
+    text-align: center;
+    position: absolute;
+    top:60%;
+    left:43%;
+    color:#14be47;
+    font-weight:800;
+    font-family: Lobster, sans-serif;
+}
+.order-now{
+    text-align: center;
+    position: absolute;
+    top:80%;
+    left:45%;
+    background-color:rgba(235, 92, 33, 1);
+}
+.box-section{
+    overflow: hidden;
+    width:100%;
+    height:140px;
+    background-color:rgba(235, 92, 33, 1);
+}
+.on-text{
+    text-align: center;
+    margin-top:35px;
+}
+.raduni-p{
+    text-align: center;
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:29px;
+    text-align: justify;
+}
